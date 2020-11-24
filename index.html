@@ -8,19 +8,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+  
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
 
 
-    <script>
-      //Your web app's Firebase configuration
-      
-      // // Initialize Firebase
-      // firebase.initializeApp(firebaseConfig);
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
+<script>
+  
+  var firebaseConfig = {
+    apiKey: "AIzaSyCuPirclHqbxOiAiEFkuqSSuJ8ptaeHWpg",
+    authDomain: "c35ball-2489f.firebaseapp.com",
+    databaseURL: "https://c35ball-2489f.firebaseio.com",
+    projectId: "c35ball-2489f",
+    storageBucket: "c35ball-2489f.appspot.com",
+    messagingSenderId: "432770479200",
+    appId: "1:432770479200:web:6edca03be264f11c953f05"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+</script>
 
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
